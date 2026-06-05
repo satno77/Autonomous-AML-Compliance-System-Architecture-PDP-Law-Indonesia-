@@ -1,0 +1,22 @@
+[workspace]
+authors = ["Silvanus Satno Nugraha <silvanussatnonugraha@mail.ugm.ac.id>"]
+channels = ["conda-forge"]
+name = "autonomus_aml"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.10"
+langchain = "*"
+langchain-community = "*"
+langchain-core = "*"
+langchain-openai = "*"
+langchain-huggingface = "*"
+langgraph = "*"
+chromadb = "*"
+sqlalchemy = "*"
+pydantic = "*"
+pypdf = ">=6.12.2,<7"
+fpdf2 = ">=2.8.7,<3"
